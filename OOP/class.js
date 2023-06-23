@@ -2,6 +2,7 @@
 
 class Student {
   // constructor to initializes object values at creation
+  // used to initialize object properties
   constructor(id, name, age) {
     this.id = id;
     this.name = name;
