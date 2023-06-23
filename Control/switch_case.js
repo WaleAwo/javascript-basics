@@ -1,6 +1,6 @@
-let week_number = 12;
+let weekNumber = 12;
 
-switch (week_number) {
+switch (weekNumber) {
   case 1:
     console.log("sunday");
     break;

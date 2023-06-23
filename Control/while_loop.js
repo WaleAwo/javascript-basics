@@ -1,20 +1,20 @@
-let number_ascending = 1;
+let numberAscending = 1;
 
-while (number_ascending <= 10) {
-  console.log(number_ascending);
-  number_ascending++;
+while (numberAscending <= 10) {
+  console.log(numberAscending);
+  numberAscending++;
 }
 
-let even_number = 2;
+let evenNumber = 2;
 
-while (even_number <= 10) {
-  console.log(even_number);
-  even_number += 2;
+while (evenNumber <= 10) {
+  console.log(evenNumber);
+  evenNumber += 2;
 }
 
-let number_descending = 10;
+let numberDescending = 10;
 
-while (number_descending >= 1) {
-  console.log(number_descending);
-  number_descending--;
+while (numberDescending >= 1) {
+  console.log(numberDescending);
+  numberDescending--;
 }

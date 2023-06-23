@@ -2,10 +2,10 @@ for (let number = 1; number <= 10; number++) {
   console.log(number);
 }
 
-for (let even_number = 2; even_number <= 10; even_number += 2) {
-  console.log(even_number);
+for (let evenNumber = 2; evenNumber <= 10; evenNumber += 2) {
+  console.log(evenNumber);
 }
 
-for (let number_descending = 10; number_descending >= 1; number_descending--) {
-  console.log(number_descending);
+for (let numberDescending = 10; numberDescending >= 1; numberDescending--) {
+  console.log(numberDescending);
 }
