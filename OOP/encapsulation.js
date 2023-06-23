@@ -20,7 +20,7 @@ class Student {
   }
 }
 
-let studentOne = new Student();
+const studentOne = new Student();
 
 // use getters and setter methods to set the object properties
 studentOne.setId(100);

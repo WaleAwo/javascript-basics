@@ -19,8 +19,8 @@ class Monzo extends Bank {
   }
 }
 
-hsbcChild = new HSBC();
+const hsbcChild = new HSBC();
 console.log(hsbcChild.roi());
 
-monzoChild = new Monzo();
+const monzoChild = new Monzo();
 console.log(monzoChild.roi());

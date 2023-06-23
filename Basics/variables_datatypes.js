@@ -11,6 +11,15 @@ let t = 23;
 
 const o = "orange"; // a value that can't be changed
 
+/*
+Use const when you declare:
+
+A new Array
+A new Object
+A new Function
+A new RegExp
+*/
+
 // DATA TYPES
 // JavaScript is a dynamically types language, so we don't explicitly have to declare the data type
 

@@ -25,5 +25,5 @@ class Student {
   }
 }
 
-let studentOne = new Student(101, "Ben", 33); // create an object of a class
+const studentOne = new Student(101, "Ben", 33); // create an object of a class
 studentOne.getDetails(); // call object method

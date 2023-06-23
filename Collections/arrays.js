@@ -1,5 +1,5 @@
 // create a new array
-let cars = ["Tesla", "BMW", "Audi"];
+const cars = ["Tesla", "BMW", "Audi"];
 
 // print array all values
 console.log(cars);
@@ -26,9 +26,9 @@ for (car of cars) {
 }
 
 // store objects in an array
-let personOne = { name: "James" };
-let personTwo = { name: "Mary" };
-let personThree = { name: "Lucy" };
+const personOne = { name: "James" };
+const personTwo = { name: "Mary" };
+const personThree = { name: "Lucy" };
 
 let people = [personOne, personTwo, personThree];
 console.log(people[0].name);

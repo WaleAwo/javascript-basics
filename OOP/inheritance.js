@@ -14,6 +14,6 @@ class ChildClass extends ParentClass {
   }
 }
 
-childObject = new ChildClass();
+const childObject = new ChildClass();
 childObject.display(); // inherited parent method
 childObject.show();

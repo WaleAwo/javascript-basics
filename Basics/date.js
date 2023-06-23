@@ -1,5 +1,5 @@
 // create a date object
-let date = new Date();
+const date = new Date();
 
 console.log(date);
 console.log(date.getDate());

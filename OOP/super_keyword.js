@@ -19,6 +19,6 @@ class Dog extends Animal {
   }
 }
 
-dogOne = new Dog("Brown", 16);
+const dogOne = new Dog("Brown", 16);
 dogOne.getAge();
 dogOne.printColor();
