@@ -38,6 +38,7 @@ console.log(arrayFour);
 // create a new array from an existing one staring from a particular index position
 const cities = ["London", "Paris", "Mumbai", "New York", "Lagos"];
 cities.slice(1);
+console.log(cities);
 
 // sort array alphabetically
 console.log(cities.sort());

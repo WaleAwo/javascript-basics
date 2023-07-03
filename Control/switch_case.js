@@ -1,4 +1,4 @@
-let weekNumber = 12;
+const weekNumber = 12;
 
 switch (weekNumber) {
   case 1:

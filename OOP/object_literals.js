@@ -1,6 +1,6 @@
-// creating an object with properties
+// creating an object variable with properties
 
-let person = {
+const person = {
   firstname: "John",
   lastname: "Lee",
   age: 45,
@@ -12,8 +12,8 @@ let person = {
 };
 
 // accessing object properties
-console.log(person["lastname"]);
 console.log(person.firstname);
+console.log(person["lastname"]);
 
 // adding properties to an existing object
 person["height"] = 5.5;
@@ -26,12 +26,12 @@ console.log(person.weight);
 delete person["age"];
 
 // using method
-let pensionAmount = person.pension();
+const pensionAmount = person.pension();
 console.log(pensionAmount);
 
-// loop through an object properties and values
+// loop through object properties and values - for...each
 for (x in person) {
-  //   console.log(x); // return all property names
+  console.log(x); // return all property names
   //   console.log(person[x]); // return all object values
   console.log(x + ": " + person[x]); // return property and value
 }

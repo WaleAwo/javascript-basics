@@ -5,7 +5,11 @@
 // = += -= *= /= %=
 
 // COMPARISON - RETURNS EITHER TRUE OR FALSE
-// > < >= <= ? == === != !===
+// > < >= <= ? == === != !==
+// == - checks for equality regardless of data type
+// === - checks for equal values and data type*
+// != - checks for non-equality regardless of data type
+// !== - checks for non-equal values and data types*
 
 // LOGICAL
 // && (and) || (or) ! (not)

@@ -12,7 +12,7 @@ cars[0] = "Toyota";
 console.log(cars);
 
 // get array length
-let totalCars = cars.length;
+const totalCars = cars.length;
 console.log(totalCars);
 
 // loop through array - option 1
@@ -30,5 +30,5 @@ const personOne = { name: "James" };
 const personTwo = { name: "Mary" };
 const personThree = { name: "Lucy" };
 
-let people = [personOne, personTwo, personThree];
+const people = [personOne, personTwo, personThree];
 console.log(people[0].name);

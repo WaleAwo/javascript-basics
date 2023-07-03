@@ -1,5 +1,14 @@
 let fullName = "Mark Andrews";
 let salutation = "Mr";
+let bool = true;
+
+//substitutions
+console.log("%s %s", salutation, fullName);
+
+// template literals
+console.log(`${salutation} ${fullName}`); // easier to read
+console.log(`1 + 1 is ${1 + 1}`); // evaluating expressions
+console.log(`The opposite of true is ${!bool}`);
 
 // get character value at index position
 console.log(fullName.charAt(3));
