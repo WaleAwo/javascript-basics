@@ -36,6 +36,15 @@ console.log(nameSplit);
 console.log(nameSplit[0]);
 console.log(nameSplit[1]);
 
-// trim white spaces
+// trim white spaces from the beginning and end of a word
 let spaces = "   spaces   ";
 console.log(spaces.trim());
+
+// reverse a string
+let reverse = fullName.split("").reverse().join("");
+console.log(reverse);
+
+// last letter
+let fullNameSplit = fullName.split("");
+let lastLetter = fullNameSplit[fullNameSplit.length - 1];
+console.log(lastLetter);
