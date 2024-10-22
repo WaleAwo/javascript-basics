@@ -2,9 +2,7 @@
 
 function lastLetter(string) {
   const wordSplit = string.split("");
-
   const letter = wordSplit[wordSplit.length - 1];
-
   return letter;
 }
 
