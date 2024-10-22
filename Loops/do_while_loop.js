@@ -1,7 +1,6 @@
 let number = 100;
 
-// execute the loop at least once
 do {
-  console.log(number);
+  console.log(number); // execute the loop at least once
   number++;
 } while (number <= 10);
