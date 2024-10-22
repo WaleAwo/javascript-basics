@@ -14,7 +14,7 @@ async function run() {
 
   await promiseTimeout(2000); // waits for the promiseTimeout function to complete before proceeding
 
-  const response = await longRunningOperation();
+  const response = await longRunningOperation(); // only printed after promise is resolved
   console.log(response);
 
   console.log("Stop!!");

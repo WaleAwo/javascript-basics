@@ -1,6 +1,9 @@
 let fullName = "Mark Andrews";
 let salutation = "Mr";
 
+// string length
+confirm.log(fullName.length)
+
 // get character value at index position
 console.log(fullName.charAt(3));
 

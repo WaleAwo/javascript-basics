@@ -12,7 +12,6 @@ class Test {
 }
 
 // access variables/methods via class name
-
 console.log(Test.a);
 console.log(Test.b); // non-static variable can't be accessed via the class
 

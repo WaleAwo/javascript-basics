@@ -1,29 +1,27 @@
-// a sample function that throws an exception
+// function that throws an exception
 function criticalCode() {
   throw "throwing an exception";
 }
 
-// a sample function that displays an exception
+// function that displays an exception
 function logError(theException) {
   console.log(theException);
 }
 
-// Try..Catch
+// try..Catch
 try {
   criticalCode();
 } catch (ex) {
-  // catches error
   console.log("Got an error");
-  logError(ex); // displays error
+  logError(ex);
 }
 
-// Try..Catch..Finally
+// try..catch..finally
 try {
   criticalCode();
 } catch (ex) {
-  // catches error
   console.log("Got an error");
-  logError(ex); // displays error
+  logError(ex);
 } finally {
   console.log("This code will always run");
 }
